@@ -1,0 +1,62 @@
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 140px 140px 140px ; 
+    gap: 5px;
+    margin-top: 10px;
+    
+}
+
+body {
+    background-color: rgb(60, 66, 66);
+}
+
+.container > * {
+    background-color: rgba(32, 123, 146, 0.726);
+    border-radius: 5px; 
+    font-size: 20px;
+    height: 50px;
+}
+
+.container > *:hover {
+    transform: scale(1.03)
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.symbol {
+    background-color: rgb(56, 81, 85);
+}
+
+.enter {
+    display: flex;
+    justify-content: center;
+}
+
+#equal {
+   background-color: rgb(42, 184, 66);
+}  
+
+#delete {
+    background-color: rgb(155, 46, 51);
+   
+}
+
+input {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    background-color: rgb(32, 30, 30);
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
